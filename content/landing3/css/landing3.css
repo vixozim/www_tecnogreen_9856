@@ -347,7 +347,7 @@ a.button .button_label {
 	line-height: 16px;
 	font-weight: 400;
 	letter-spacing: 0px;
-	padding: 5px 20px 5px 20px;
+	padding: 10px 20px 10px 20px;
 	border-width: 0px;
 	border-radius: 22px;
 }
@@ -739,7 +739,11 @@ h6 {
 	font-weight: 400;
 	letter-spacing: 0px;
 }
+
+
 @media only screen and (min-width: 768px) and (max-width: 959px) {
+
+
 	body {
 		font-size: 14px;
 		line-height: 24px;
@@ -1170,7 +1174,7 @@ h6 {
 	line-height: 16px;
 	font-weight: 400;
 	letter-spacing: 0px;
-	padding: 5px 20px 5px 20px;
+	padding: 10px 20px 10px 20px;
 	border-width: 0px;
 	border-radius: 22px;
 }
@@ -1215,7 +1219,7 @@ h6 {
 	background-color: #40888d!important;
 }
 #Top_bar #logo, .header-fixed #Top_bar #logo, .header-plain #Top_bar #logo, .header-transparent #Top_bar #logo {
-	height: 60px;
+	height: 80px;
 	line-height: 60px;
 	padding: 15px 0;
 }
@@ -3203,3 +3207,38 @@ p.flv_align_right, div.flv_align_right {
   .whatsapp-icon {
 	margin-top:13px;
   }
+
+
+
+  .desktop{
+
+	display: block !important;
+}
+.mobile{
+
+	display: none !important;
+}
+
+#productos, #faq{
+padding-top: 40px;
+	padding-bottom: 160px;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.desktop{
+
+		display: none !important;
+	} 
+
+	.mobile{
+
+		display: block !important;
+	}
+
+
+	#productos, #faq{
+padding-top: 0px;
+		padding-bottom: 0px !important;
+	}
+}
