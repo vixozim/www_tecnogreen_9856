@@ -3230,10 +3230,22 @@ padding-top: 40px;
 	padding-bottom: 160px;
 }
 
+iframe{
+
+
+	width:100%;
+	height: 850px;
+}
+
 #como_funciona{
-	padding-top: 40px;
+	padding-top: 0px;
 		padding-bottom: 0px;
 	}
+
+	.contacto{
+		display: none;
+		
+		}
 
 @media only screen and (max-width: 768px) {
 
@@ -3247,6 +3259,22 @@ padding-top: 40px;
 		display: block !important;
 	}
 
+	iframe{
+
+
+		width:100%;
+		height: auto;
+	}
+
+	.precio{
+		padding-top: 40px;
+			padding-bottom: 40px;
+		}
+
+		.contacto{
+			display: block;
+			
+			}
 
 #faq,  #como_funciona{
 padding-top: 0px;
